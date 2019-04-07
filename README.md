@@ -23,3 +23,4 @@ device_register接口中post包体是加密的，算法实际上是AES，但是�
 3.ios_aweme_lib的功能是golang->抖音app2lib的桥接，调用流程是API ->ios_aweme_lib ->抖音lib，因为早期的方案是把抖音app2lib，然后通过golang写的webserver（交叉编译到ios）调用这个桥接库，然后调用抖音app，实现encryptDataWithTimeStamp，后来直接采用阻塞app跑webserver的方案后废弃了。<br>
 4.ios_webserver，这是Hook抖音app并阻塞encryptDataWithTimeStamp然后跑webserver的实现，框架是monkeydev，框架代码没上传，github上有搜monkeydev就行。<br>
 <br>
+授权协议：只允许研究、学习目的的分享、使用、修改，不允许任何商业用途。转载请注明出处，感谢。<br>
