@@ -11,7 +11,7 @@
 <br>
 <br>
 2./service/2/device_register/接口加密算法：<br>
-device_register接口中post包体是加密的，算法实际上是AES，但是不知道为何标准AES实现跑出来的结果不对，不过没关系，直接从IDA伪代码里扒出来即可，中间有5处要修复xray的寄存器解析错误，密钥：!*ss!_defaul%t54K&EY<br>
+device_register接口中post包体是加密的，算法实际上是AES，但是不知道为何标准AES实现跑出来的结果不对，不过没关系，直接从IDA伪代码里扒出来即可，中间有5处要修复xray的寄存器解析错误。
 <br>
 <br>
 3.MAS、AS、TS算法：<br>
