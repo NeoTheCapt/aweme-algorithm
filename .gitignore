@@ -120,4 +120,4 @@ iOSInjectionProject/
 /ios_webserver/aweme/TargetApp_Headers/
 /ios_webserver/aweme/TargetApp/
 /ios_webserver/aweme/Aweme_Headers/
-.idea/
+.idea/*
